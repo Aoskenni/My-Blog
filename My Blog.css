@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 18px;
+    background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+    height: 100px;
+}
+.nav-header, .head-nav-container, .nav-sidebar, #logo  {
+    position: fixed;
+}
+.head-nav-container {
+    height: 100px;
+    border: 2px solid;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.nav-header {
+ top: 40px;
+ right: 0;
+}
+.nav-header > a {
+   margin: 0 80px 0 80px;
+   text-decoration: none;
+   color: #fff;
+}
+.nav-header > a:hover {
+    color: rgb(106, 22, 22)
+}
+.nav-header > a:active {
+    color: rgb(0, 0, 204);
+}
+.nav-sidebar {
+    display: flex;
+    flex-direction: column;
+    top: 180px;
+    line-height: 3em;
+    overflow: auto;
+    overflow-x: hidden;
+    bottom: 0.1em;
+    text-align: center;
+    padding: 0 39px 0 39px;
+    border-right: 2px solid grey;
+    background-color: #d3d3d3;
+}
+.nav-sidebar > a {
+    text-decoration: none;
+    font-size: 15.2px;
+    color: rgb(44, 43, 43);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.nav-sidebar > a:hover {
+    color: rgb(255, 0, 0);
+}
+.nav-sidebar > a:active {
+    color: rgb(124, 124, 124);
+}
+h1 {
+    position: fixed;
+    top: 110px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+#nav-divider {
+    width: 100%;
+    margin-left: -39px;
+    padding-left: 78px;
+    border: 1.5px solid;
+    color: #7d7d7d;
+}
+#animal-planet {
+    margin: 104px;
+    margin-left: 240px; 
+    width: 100%;
+}
+.sections-container {
+    height: 430vw;
+    margin-left: 240px;
+    margin-top: -108px;
+    padding-left: 40px; 
+    padding-right: 60px;
+    line-height: 1.8em;
+}
+#mammals-img, #acquatic-img, #terrestrial-img, #amphibians-img, #elephant-img, #reptile-img, #viviparous-img,
+#primates-img, #birds-img, #constrictors-img {
+    width: 20%;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h2 {
+    margin-top: 60px;
+}
